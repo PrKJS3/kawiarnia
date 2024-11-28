@@ -1,9 +1,154 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawiarnia JL</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+            .container {
+                font-family: 'Calibri', serif;
+                background-color: beige;
+            }
+            .py-3 {
+                align-content: center;
+                gap:5px;
+            }
+            .card {
+                align-items: center;
+            }
+    </style>
+</head>
+<body>
+   <nav class="navbar navbar-light bg-light" style="padding: 32px;">
+        <div class="container" style="height:200px; width:100vh">
+            <a class="navbar-brand" href="#">Kawiarnia JL</a>
+            <form class="form-inline">
+                <button class="btn btn-outline-secondary" type="button"><a class="nav-link" href="#menu">Menu</a></button>
+                <button class="btn btn-outline-secondary" type="button"><a class="nav-link" href="#gallery">Galeria</a></button>
+                <button class="btn btn-outline-secondary" type="button"><a class="nav-link" href="#hours">Godziny otwarcia</a></button>
+                <button class="btn btn-outline-secondary" type="button"><a class="nav-link" href="#contact">Kontakt</a></button>
+            </div>
+  </nav>
+    <div class="row">
+                <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Witamy w najlepszej kawiarni w mieście!</h5>
+                    <p class="card-text">Twoja ulubiona kawa w sercu Jelcza Laskowic!</p>
+                </div>
+    </div>
+</div>
+<div class="mx-auto" style="width: 70%">
+       <img src="slider.png" class="img-fluid" alt="kawy i ciasta serwowane w kawiarni">
+    </div>
+    <section id="menu" class="py-3">
+        <div class="container" style="padding: 32px;">
+            <h2 class="text-center mb-4">Nasze Menu</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">Na ciepło:</li><p>
+                                <dl class="row">
+                                    <dt class="col-sm-5">Espresso</dt>
+                                    <dd class="col-sm-5">8 zł</dd>
+                                    <p><dt class="col-sm-5">Americano</dt>
+                                    <dd class="col-sm-5">8 zł</dd></p>
+                                    <p><dt class="col-sm-5">Flat White</dt>
+                                    <dd class="col-sm-5">8 zł</dd></p>
+                                    <p><dt class="col-sm-5">Latte</dt>
+                                    <dd class="col-sm-5">8 zł</dd></p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">Na zimno:</li><p>
+                                <dl class="row">
+                                    <dt class="col-sm-7">Mrożona Latte</dt>
+                                    <dd class="col-sm-5">12 zł</dd>
+                                    <p><dt class="col-sm-7">Mrożona Mokka</dt>
+                                    <dd class="col-sm-5">12 zł</dd></p>
+                                    <p><dt class="col-sm-7">Mrożona Herbata</dt>
+                                    <dd class="col-sm-5">8 zł</dd></p>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">Na słodko:</li><p>
+                                <dl class="row">
+                                    <dt class="col-sm-5">karpatka</dt>
+                                    <dd class="col-sm-5">8 zł</dd>
+                                    <p><dt class="col-sm-5">Eklerka</dt>
+                                    <dd class="col-sm-5">7 zł</dd></p>
+                                    <p><dt class="col-sm-5">Sernik</dt>
+                                    <dd class="col-sm-5">8 zł</dd></p>
+                                    <p><dt class="col-sm-5">Szarlotka</dt>
+                                    <dd class="col-sm-5">7 zł</dd></p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </head>
-    <body>
-        witaj
-        HOPHOPHOP
-    </body>
+    <section id="gallery" class="py-3">
+        <div class="container" style="padding: 32px;">
+            <h2 class="text-center mb-4">Galeria</h2>
+            <div class="row g-3">
+                <div class="col-sm-6 col-md-4">
+                    <img src="makowiec.jpg" alt="Zdjęcie makowca" class="img-fluid rounded shadow-sm" style="height:300px; width:300px">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="sernik.jpg" alt="Zdjęcie sernika" class="img-fluid rounded shadow-sm" style="height:300px; width:300px">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="slonecznikowiec.jpg" alt="Zdjęcie slonecznikowca" class="img-fluid rounded shadow-sm" style="height:300px; width:300px">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="tartelka.jpg" alt="Zdjęcie tartelki" class="img-fluid rounded shadow-sm" style="height:300px; width:300px">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="trufelek.jpg" alt="Zdjęcie trufelka" class="img-fluid rounded shadow-sm" style="height:300px; width:300px">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="ekler.jpg" alt="Zdjęcie eklera" class="img-fluid rounded shadow-sm" style="height:300px; width:300px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hours" class="py-3">
+        <div class="container" style="padding: 32px;">
+            <h2 class="text-center mb-3">Godziny Otwarcia</h2>
+            <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">Poniedziałek - Piątek: 10:00 - 18:00</li>
+                <li class="list-group-item">Sobota - Niedziela: 9:00 - 20:00</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact" class="py-3">
+        <div class="container" style="padding: 32px;">
+                <h2 class="text-center mb-3">Kontakt</h2>
+                <ul class="list-group list-group-flush text-center">
+                    <li class="list-group-item"><strong>Adres:</strong> ul. Witosa, 55-230 Jelcz-Laskowice</li>
+                    <li class="list-group-item"><strong>Telefon:</strong> <a href="tel:+48123456789">+48 123 456 789</a></li>
+                    <li class="list-group-item"><strong>Email:</strong> <a href="mailto:kontakt@kawiarnia.pl">kontakt@kawiarnia.pl</a></li>
+                </ul>
+            </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Kawiarnia JL</p>
+    </footer>
+ </body>
 </html>
